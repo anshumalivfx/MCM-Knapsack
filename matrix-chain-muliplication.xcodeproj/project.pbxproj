@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7A0E0EB02820E0CB00294EC2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E0EAF2820E0CB00294EC2 /* main.cpp */; };
+		7A0E0EB82820E13E00294EC2 /* MatrixChainMultiplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A0E0EB62820E13E00294EC2 /* MatrixChainMultiplication.cpp */; };
+		7AC191A52820EDB300BEFD78 /* KnapsackProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AC191A32820EDB300BEFD78 /* KnapsackProblem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		7A0E0EAC2820E0CB00294EC2 /* matrix-chain-muliplication */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "matrix-chain-muliplication"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0E0EAF2820E0CB00294EC2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7A0E0EB62820E13E00294EC2 /* MatrixChainMultiplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixChainMultiplication.cpp; sourceTree = "<group>"; };
+		7A0E0EB72820E13E00294EC2 /* MatrixChainMultiplication.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MatrixChainMultiplication.hpp; sourceTree = "<group>"; };
+		7AC191A32820EDB300BEFD78 /* KnapsackProblem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KnapsackProblem.cpp; sourceTree = "<group>"; };
+		7AC191A42820EDB300BEFD78 /* KnapsackProblem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KnapsackProblem.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				7A0E0EAF2820E0CB00294EC2 /* main.cpp */,
+				7A0E0EB62820E13E00294EC2 /* MatrixChainMultiplication.cpp */,
+				7A0E0EB72820E13E00294EC2 /* MatrixChainMultiplication.hpp */,
+				7AC191A32820EDB300BEFD78 /* KnapsackProblem.cpp */,
+				7AC191A42820EDB300BEFD78 /* KnapsackProblem.hpp */,
 			);
 			path = "matrix-chain-muliplication";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC191A52820EDB300BEFD78 /* KnapsackProblem.cpp in Sources */,
+				7A0E0EB82820E13E00294EC2 /* MatrixChainMultiplication.cpp in Sources */,
 				7A0E0EB02820E0CB00294EC2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
